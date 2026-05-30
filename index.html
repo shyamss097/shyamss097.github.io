@@ -8,42 +8,38 @@
 
   <style>
     body {
-      max-width: 640px;
+      max-width: 600px;
       margin: 140px auto;
       padding: 0 28px;
 
       font-family: "Raleway", sans-serif;
-      font-weight: 300;
       font-size: 20px;
-      line-height: 1.9;
+      line-height: 1.85;
 
       color: #151515;
       background: #fff;
+      font-weight: 300;
     }
 
     h1 {
-      font-size: 22px;
-      font-weight: 300;
-      margin-bottom: 64px;
-      letter-spacing: 0.5px;
+      font-size: 24px;
+      font-weight: 400;   /* FIX: name becomes stronger */
+      margin-bottom: 60px;
+      letter-spacing: 0.4px;
+      color: #111;
     }
 
-    .stack p {
-      margin: 0;
-    }
+    .core {
+      font-size: 20px;
+      font-weight: 300;   /* FIX: reduce dominance */
+      color: #111;
 
-    .stack {
-      margin-bottom: 72px;
-    }
-
-    .stack p + p {
-      margin-top: 6px;
+      margin-bottom: 90px;
     }
 
     .meta {
       font-size: 15px;
       color: #777;
-      margin-top: 80px;
     }
 
     .meta a {
@@ -55,6 +51,10 @@
     .meta a:hover {
       border-bottom: 1px solid #111;
     }
+
+    .meta p {
+      margin: 6px 0;
+    }
   </style>
 </head>
 
@@ -62,15 +62,13 @@
 
   <h1>S Shyam Sundar</h1>
 
-  <div class="stack">
-    <p>Backend systems.</p>
-    <p>Distributed systems.</p>
-    <p>Applied AI.</p>
+  <div class="core">
+    Systems Engineering · Applied AI
   </div>
 
   <div class="meta">
     <p><a href="https://github.com/shyamss097">GitHub</a></p>
-    <p><a href="https://www.linkedin.com/in/sundar-s-shyam">LinkedIn</a></p>
+    <p><a href="https://linkedin.com/in/sundar-s-shyam">LinkedIn</a></p>
     <p><a href="mailto:shyamss097@email.com">Email</a></p>
   </div>
 
