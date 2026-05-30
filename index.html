@@ -2,54 +2,58 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>S Shyam Sundar/title>
+  <title>S Shyam Sundar</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
 
   <style>
     body {
       max-width: 640px;
-      margin: 90px auto;
-      padding: 0 24px;
+      margin: 140px auto;
+      padding: 0 28px;
 
       font-family: "Raleway", sans-serif;
-      font-size: 18px;
-      line-height: 1.75;
-
-      color: #1a1a1a;
-      background: #fff;
       font-weight: 300;
+      font-size: 20px;
+      line-height: 1.9;
+
+      color: #151515;
+      background: #fff;
     }
 
     h1 {
       font-size: 22px;
       font-weight: 300;
-      margin-bottom: 32px;
-      letter-spacing: 0.3px;
+      margin-bottom: 64px;
+      letter-spacing: 0.5px;
     }
 
-    p {
-      margin: 0 0 16px 0;
+    .stack p {
+      margin: 0;
     }
 
-    a {
-      color: #111;
-      text-decoration: none;
-      border-bottom: 1px solid #ccc;
+    .stack {
+      margin-bottom: 72px;
     }
 
-    a:hover {
-      border-bottom: 1px solid #111;
+    .stack p + p {
+      margin-top: 6px;
     }
 
     .meta {
-      margin-top: 42px;
-      font-size: 16px;
-      color: #555;
+      font-size: 15px;
+      color: #777;
+      margin-top: 80px;
     }
 
-    .meta p {
-      margin: 6px 0;
+    .meta a {
+      color: #111;
+      text-decoration: none;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .meta a:hover {
+      border-bottom: 1px solid #111;
     }
   </style>
 </head>
@@ -58,10 +62,15 @@
 
   <h1>S Shyam Sundar</h1>
 
-  <p>Software engineer. Backend systems, distributed services.</p>
+  <div class="stack">
+    <p>Backend systems.</p>
+    <p>Distributed systems.</p>
+    <p>Applied AI.</p>
+  </div>
 
   <div class="meta">
     <p><a href="https://github.com/shyamss097">GitHub</a></p>
+    <p><a href="https://www.linkedin.com/in/sundar-s-shyam">LinkedIn</a></p>
     <p><a href="mailto:shyamss097@email.com">Email</a></p>
   </div>
 
